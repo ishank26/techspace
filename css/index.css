@@ -1,0 +1,273 @@
+@charset "UTF-8";
+*{
+margin: 0;
+padding: 0;
+}
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Amble-Regular-webfont.eot');
+    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Regular-webfont.woff') format('woff'),
+         url('Amble-Regular-webfont.ttf') format('truetype'),
+         url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sans_condensedbold';
+    src: url('OpenSans-CondBold-webfont.eot');
+    src: url('OpenSans-CondBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-CondBold-webfont.woff') format('woff'),
+         url('OpenSans-CondBold-webfont.ttf') format('truetype'),
+         url('OpenSans-CondBold-webfont.svg#open_sans_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+html,body{
+height: 100%;
+cursor: pointer;
+width: 100%;
+}
+#intro, #clubs, #about{
+    width:100%;
+  min-height: 100%;
+}
+#intro{
+  background:#87D37C;
+}
+.name{
+  position: relative;
+  margin-top: 10%;
+
+  }
+.name p{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'ambleregular';
+  font-size: 7em;
+  color:#Fff;
+} 
+.listg li a.button{
+
+background: none !important;
+font-size: 1em !important;
+font-family: 'open_sans_condensedbold';
+
+}
+.listg li a.button:hover{
+  background: #E4F1FE!important;
+  color:#000!important;
+}
+
+#clubs{
+  background:#AEA8D3;
+}
+
+#clubs .chead h1{
+  text-align: center;
+  color:#22313F;
+  font-family: 'open_sans_condensedbold';
+  font-size: 4em; 
+}
+.code,.lug,.electro,.maths,.literary,.publish{
+  background:#ecf0f1;
+  min-height:370px;
+  }
+
+.code h2 {
+   font-family: 'open_sans_condensedbold';
+   text-align: center;
+}
+
+.lug h2{
+    font-family: 'open_sans_condensedbold';
+    text-align: center;
+}
+.electro h2{
+    font-family: 'open_sans_condensedbold';
+    text-align: center;
+}
+.maths h2{
+    font-family: 'open_sans_condensedbold';
+    text-align: center;
+}
+.literary h2{ 
+  font-family: 'open_sans_condensedbold';
+  text-align: center;
+}
+.publish h2{
+  font-family: 'open_sans_condensedbold';
+  text-align: center;
+}
+.code p{
+  font-family: 'ambleregular';
+}
+.lug p{
+  font-family: 'ambleregular';
+}
+.electro p{
+  font-family: 'ambleregular';
+}
+.maths p{
+  font-family: 'ambleregular';
+}
+.literary p{
+font-family: 'ambleregular';
+}
+.publish p{
+font-family: 'ambleregular';
+}
+
+.code .clogo{
+  margin-top:1.2em;
+   margin-bottom:1em;
+  width:80px;
+  height:80px;
+  background:url('../images/code.png') 0 no-repeat ;
+  background-position:0 0px;
+}
+.code:hover{
+  background:#00B16A;
+}
+.code:hover .clogo{
+    background-position:0 -80px;
+}
+.code:hover p{
+  color:#fff;
+}
+.lug .clogo{
+  width:80px;
+  height:80px;
+  background:url('../images/.png') 0 no-repeat ;
+}
+.electro .clogo{
+  width:80px;
+  height:80px;
+  background:url('../images/.png') 0 no-repeat ;
+}
+.maths .clogo{
+  width:80px;
+  height:80px;
+  background:url('../images/.png') 0 no-repeat ;
+}
+.literary .clogo{
+  width:80px;
+  height:80px;
+  background:url('../images/.png') 0 no-repeat ;
+}
+.publish .clogo{
+  width:80px;
+  height:80px;
+  background:url('../images/.png') 0 no-repeat ;
+}
+
+.lug .clogo{
+  margin-top:1.2em;
+   margin-bottom:1em;
+  width:80px;
+  height:80px;
+  background:url('../images/lug.png') 0 no-repeat ;
+  background-position:0 0px;
+}
+.lug:hover{
+  background:#D64541;
+}
+.lug:hover p{
+  color:#fff;
+}
+.lug:hover .clogo{
+    background-position:0 -80px;
+}
+
+.electro .clogo{
+  margin-top:1.2em;
+   margin-bottom:1em;
+  width:80px;
+  height:80px;
+  background:url('../images/electro.png') 0 no-repeat ;
+  background-position:0 -80px;
+}
+.electro:hover{
+  background:#19B5FE;
+}
+.electro:hover p{
+  color:#fff;
+}
+.electro:hover .clogo{
+    background-position:0 0px;
+}
+
+.maths .clogo{
+  margin-top:1.2em;
+   margin-bottom:1em;
+  width:80px;
+  height:80px;
+  background:url('../images/math.png') 0 no-repeat ;
+  background-position:0 0px;
+}
+.maths:hover{
+  background:#F4D03F;
+}
+.maths:hover p{
+  color:#fff;
+}
+.maths:hover .clogo{
+    background-position:0 -80px;
+}
+
+
+.literary .clogo{
+  margin-top:1.2em;
+   margin-bottom:1em;
+  width:80px;
+  height:80px;
+  background:url('../images/lit.png') 0 no-repeat ;
+  background-position:0 0px;
+}
+.literary:hover{
+  background:#F2784B;
+}
+.literary:hover p{
+  color:#fff;
+}
+.literary:hover .clogo{
+    background-position:0 -80px;
+}
+
+
+.publish .clogo{
+  margin-top:1.2em;
+   margin-bottom:1em;
+  width:80px;
+  height:80px;
+  background:url('../images/pub.png') 0 no-repeat ;
+  background-position:0 0px;
+}
+.publish:hover{
+  background:#446CB3;
+}
+.publish:hover p{
+  color:#fff;
+}
+.publish:hover .clogo{
+    background-position:0 -80px;
+}
+
+#about{
+  background:#52B3D9;
+}
+
+#about .chead h1{
+  text-align: center;
+  color:#fff;
+  font-family: 'open_sans_condensedbold';
+  font-size: 4em; 
+}
