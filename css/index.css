@@ -41,19 +41,25 @@ width: 100%;
   min-height: 100%;
 }
 #intro{
-  background:#87D37C;
-}
+   width:100%;
+   background:url('../images/bg.jpg') 0 no-repeat fixed;
+   background-size: cover;
+  min-height:100%;
+  position:relative;
+  margin: 0 auto;
+  background-attachment: fixed;
+  
+  }
 .name{
   position: relative;
-  margin-top: 10%;
+  margin-top: 15%;
 
   }
 .name p{
-  font-weight: bold;
+   font-family: 'ambleregular';
   text-align: center;
-  font-family: 'ambleregular';
   font-size: 7em;
-  color:#Fff;
+  color:#000;
 } 
 .listg li a.button{
 
@@ -68,12 +74,12 @@ font-family: 'open_sans_condensedbold';
 }
 
 #clubs{
-  background:#AEA8D3;
+  background:#F1A9A0;
 }
 
 #clubs .chead h1{
   text-align: center;
-  color:#22313F;
+  color:#DB0A5B;
   font-family: 'open_sans_condensedbold';
   font-size: 4em; 
 }
@@ -262,12 +268,32 @@ font-family: 'ambleregular';
 }
 
 #about{
-  background:#52B3D9;
+  background:#fff;
 }
 
 #about .chead h1{
   text-align: center;
-  color:#fff;
+  color:#446CB3;
   font-family: 'open_sans_condensedbold';
   font-size: 4em; 
+}
+.abouts{
+  outline:#000 solid 0.2em;
+  min-height: 532px;
+  background:#DADFE1;
+   box-shadow:  4px 6px 4px #4E3838,4px 6px 4px #4E3838;}
+.abouts:hover{
+  box-shadow:inset  0px 2px 3px #4E3838;
+}
+.abouts h2{
+  text-align: center;
+  font-family: 'open_sans_condensedbold';
+}
+.abouts p{
+  text-align: center;
+  font-family: 'ambleregular';
+  font-size:1.2em;
+}
+.social{
+  text-align: center;
 }
